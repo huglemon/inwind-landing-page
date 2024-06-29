@@ -1,0 +1,40 @@
+{
+	"Hero": {
+	  "h1": "Créez rapidement votre page de renvoi",
+	  "h2": "Voici un modèle de page de renvoi gratuit, open source et puissant pour les projets SaaS, qui vous aidera à lancer votre startup plus rapidement."
+	},
+	"Feature": {
+	  "h2": "Fonctionnalités",
+	  "h3": "Caractéristiques du modèle de page de renvoi Chengfeng",
+	  "description1": "Un excellent modèle de page de renvoi.",
+	  "description2": "Basé sur Next.JS, DaisyUI, TailwindCSS et d'autres bibliothèques puissantes.",
+	  "description3": "Entièrement open source et totalement gratuit."
+	},
+	"Pricing": {
+	  "h2": "Tarification",
+	  "h3": "Choisissez votre plan",
+	  "description": "Sélectionnez le plan qui convient le mieux à vos besoins.",
+	  "doYouLike": "Aimez-vous ce modèle de page de renvoi ?",
+	  "follow": "Suivez-moi sur Twitter."
+	},
+	"Testimonial": {
+	  "h2": "Témoignages",
+	  "h3": "Mur d'amour",
+	  "description1": "Si vous utilisez ce modèle de page de renvoi et le recommandez sur votre Twitter,",
+	  "description2": "faites-le moi savoir",
+	  "description3": ", je présenterai votre tweet et votre recommandation ici."
+	},
+	"Faq": {
+	  "h2": "FAQ",
+	  "h3": "Questions fréquemment posées",
+	  "description": "Voici quelques-unes des questions les plus courantes."
+	},
+	"CTA": {
+	  "h2": "Construisez votre page de renvoi maintenant",
+	  "h3": "Créez votre page de renvoi, présentez votre produit et commencez à gagner de l'argent !"
+	},
+	"CTAButton": {
+	  "btn1": "Obtenir le code source",
+	  "btn2": "Voir la documentation"
+	}
+  }

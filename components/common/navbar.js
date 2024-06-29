@@ -23,7 +23,7 @@ export default function Navbar() {
 			setLinkList(NavLinksList[`LINK_${langName.toUpperCase()}`] || []);
 		};
 		fetcLinksList();
-	}, [pathname, langName, NavLinksList]);
+	}, [pathname, langName]);
 
 	return (
 		<header className='w-full z-50 bg-base-100 p-5 pb-0 max-w-[1280px] mx-auto md:mb-5 flex justify-between items-center'>
