@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://landingpage.huglemon.com
+
+# Sitemaps
+Sitemap: https://landingpage.huglemon.com/sitemap.xml

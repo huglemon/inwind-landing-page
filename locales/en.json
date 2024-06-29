@@ -1,0 +1,40 @@
+{
+	"Hero": {
+		"h1": "Make Landing Page Faster",
+		"h2": "This is a free, open-source and powerful landing page template for saas project, it will help you to make your startup faster."
+	},
+	"Feature": {
+		"h2": "Our Feature",
+		"h3": "Features of inWind Landing Page Template",
+		"description1": "Awesome landing page template.",
+		"description2": "Based on Next.JS, DaisyUI, TailwinCSS and other powerful libary.",
+		"description3": "Completely open source and completely free."
+	},
+	"Pricing": {
+		"h2": "Our Pricing",
+		"h3": "Choose Your Plan",
+		"description": "Select the plan that best fits your needs.",
+		"doYouLike": "你喜欢这个落地页模板吗？",
+		"follow": "关注我的推特。"
+	},
+	"Testimonial": {
+		"h2": "Testimonials",
+		"h3": "Wall of Love",
+		"description1": "If you use this landing page template and recommend it on your Twitter,",
+		"description2": "please let me know",
+		"description3": ",I will display your tweet and recommendation here."
+	},
+	"Faq": {
+		"h2": "FAQ",
+		"h3": "Frequently Asked Questions",
+		"description": "Here are some of the most frequently asked questions."
+	},
+	"CTA": {
+		"h2": "Build Your Landing Page Now",
+		"h3": "Build your landing page, show your product, and start earning!"
+	},
+	"CTAButton": {
+		"btn1": "Get Source Code",
+		"btn2": "View Docs"
+	}
+}

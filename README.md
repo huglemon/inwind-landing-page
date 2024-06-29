@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![screenshot](https://mp-bca925c9-72bc-4e92-8c87-d596015241bf.cdn.bspapp.com/2024/06/29/48052030-56853423-SafariLight.png)
 
-## Getting Started
+### inWind Landing Page 是什么
 
-First, run the development server:
+inWind Landing Page 是基于 Next.js 给出海SaaS项目开发的Landing Page模板，完全开源、免费，完美的SEO和多语言支持。
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### 为什么开发inWind Landing Page
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. 首先是受到了@weijunext 大佬的影响，决定也开源一个Landing Page方便大家选择；
+2. 其次是最近也在给传统工厂提供B2B的独立站开发，但我原本的uni-app开发属于SPA项目，对SEO非常不友好，所以重新啃完了Next.js的开发，这也算是练手之作；
+3. 最后也是希望借这个项目多认识一些出海的伙伴，如果对你有帮助或者你有什么其他需要帮助的，可以联系我交流~
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### 用到的三方库
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- [DaisyUI](https://daisyui.com/)：基于此实现了多主题切换和一些基础的样式（推荐从未接触过TailwindCSS的朋友可以尝试一下，可以少记很多类名）
+- [framer-motion](https://www.framer.com/motion/)：完成大部分动画效果
+- [react-icons](https://react-icons.github.io/react-icons/)：推荐React的开发者使用，非常方便和完善的图标库
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+### 在线预览
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+[点我直达](https://landingpage.huglemon.com/)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+### 感谢与支持
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+-   感谢[@weijunext](https://weijunext.com/)开源的landingpage项目，参考了很多内容
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### 交个朋友
+
+-   QQ：123060128
+-   Twitter：[@huglemon520](x.com/huglemon520)
+-   Email：[karma.zhao@gmail.com](mailto:karma.zhao@gmail.com)
+-   博客：[https://huglemon.com](https://huglemon.com)
+
+### 赞助
+
+如果这个项目对你有帮助，可以请我喝一罐红牛
+
+[![buymeacoffee](https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png "buymeacoffee")](https://buymeacoffee.com/huglemon "buymeacoffee")
+![pay qrcode](https://mp-bca925c9-72bc-4e92-8c87-d596015241bf.cdn.bspapp.com/2024/06/29/48706370-14858221-WechatIMG135.jpg)

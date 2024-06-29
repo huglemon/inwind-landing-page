@@ -1,0 +1,40 @@
+{
+	"Hero": {
+		"h1": "Crea Páginas de Destino Más Rápido",
+		"h2": "Esta es una plantilla de página de destino gratuita, de código abierto y poderosa para proyectos de SaaS, te ayudará a hacer que tu startup sea más rápida."
+	},
+	"Feature": {
+		"h2": "Nuestras Características",
+		"h3": "Características de la Plantilla de Página de Destino inWind",
+		"description1": "Increíble plantilla de página de destino.",
+		"description2": "Basada en Next.JS, DaisyUI, TailwindCSS y otras bibliotecas poderosas.",
+		"description3": "Completamente de código abierto y completamente gratuita."
+	},
+	"Pricing": {
+		"h2": "Nuestros Precios",
+		"h3": "Elige Tu Plan",
+		"description": "Selecciona el plan que mejor se adapte a tus necesidades.",
+		"doYouLike": "¿Te gusta esta plantilla de página de destino?",
+		"follow": "Sigue mi Twitter."
+	},
+	"Testimonial": {
+		"h2": "Testimonios",
+		"h3": "Muro del Amor",
+		"description1": "Si usas esta plantilla de página de destino y la recomiendas en tu Twitter,",
+		"description2": "por favor házmelo saber",
+		"description3": ",mostraré tu tweet y recomendación aquí."
+	},
+	"Faq": {
+		"h2": "Preguntas Frecuentes",
+		"h3": "Preguntas Frecuentes",
+		"description": "Aquí están algunas de las preguntas más frecuentes."
+	},
+	"CTA": {
+		"h2": "Construye Tu Página de Destino Ahora",
+		"h3": "Construye tu página de destino, muestra tu producto y empieza a ganar!"
+	},
+	"CTAButton": {
+		"btn1": "Obtener Código Fuente",
+		"btn2": "Ver Documentos"
+	}
+}
