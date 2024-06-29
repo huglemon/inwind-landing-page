@@ -1,41 +1,45 @@
 ![screenshot](https://mp-bca925c9-72bc-4e92-8c87-d596015241bf.cdn.bspapp.com/2024/06/29/48052030-56853423-SafariLight.png)
 
-### inWind Landing Page 是什么
+# [inWind Landing Page Template](https://landingpage.huglemon.com/)
 
-inWind Landing Page 是基于 Next.js 给出海SaaS项目开发的Landing Page模板，完全开源、免费，完美的SEO和多语言支持。
+🌍 *[English](README.md) ∙ [简体中文](README-zh.md)*
 
-### 为什么开发inWind Landing Page
+### What is inWind Landing Page
 
-1. 首先是受到了@weijunext 大佬的影响，决定也开源一个Landing Page方便大家选择；
-2. 其次是最近也在给传统工厂提供B2B的独立站开发，但我原本的uni-app开发属于SPA项目，对SEO非常不友好，所以重新啃完了Next.js的开发，这也算是练手之作；
-3. 最后也是希望借这个项目多认识一些出海的伙伴，如果对你有帮助或者你有什么其他需要帮助的，可以联系我交流~
+inWind Landing Page is a Landing Page template developed for global SaaS projects based on Next.js. It is completely open source, free, and offers perfect SEO and multi-language support.
 
-### 用到的三方库
+### Why develop inWind Landing Page
 
-- [DaisyUI](https://daisyui.com/)：基于此实现了多主题切换和一些基础的样式（推荐从未接触过TailwindCSS的朋友可以尝试一下，可以少记很多类名）
-- [framer-motion](https://www.framer.com/motion/)：完成大部分动画效果
-- [react-icons](https://react-icons.github.io/react-icons/)：推荐React的开发者使用，非常方便和完善的图标库
+1. First, influenced by the big shot @weijunext, I decided to also open source a Landing Page for everyone to choose from;
+2. Secondly, I have also been developing independent B2B websites for traditional factories recently, but my original uni-app development is a SPA project, which is very unfriendly to SEO, so I re-studied Next.js development, which is also a practice project;
+3. Finally, I also hope to use this project to meet more global partners. If it is helpful to you or if you need any other help, you can contact me to exchange ideas~
+
+### Third-party libraries used
+
+- [DaisyUI](https://daisyui.com/): Used to implement multi-theme switching and some basic styles (recommended for friends who have never used TailwindCSS, you can try it, you can remember fewer class names)
+- [framer-motion](https://www.framer.com/motion/): Used to complete most of the animation effects
+- [react-icons](https://react-icons.github.io/react-icons/): Recommended for React developers, a very convenient and comprehensive icon library
 
 
-### 在线预览
+### Online Preview
 
-[点我直达](https://landingpage.huglemon.com/)
+[Click me to go directly](https://landingpage.huglemon.com/)
 
 
-### 感谢与支持
+### Thanks and Support
 
--   感谢[@weijunext](https://weijunext.com/)开源的landingpage项目，参考了很多内容
+-   Thanks to [@weijunext](https://weijunext.com/) for the open-source landingpage project, which referenced a lot of content
 
-### 交个朋友
+### Let's be friends
 
--   QQ：123060128
--   Twitter：[@huglemon520](x.com/huglemon520)
--   Email：[karma.zhao@gmail.com](mailto:karma.zhao@gmail.com)
--   博客：[https://huglemon.com](https://huglemon.com)
+-   QQ: 123060128
+-   Twitter: [@huglemon520](x.com/huglemon520)
+-   Email: [karma.zhao@gmail.com](mailto:karma.zhao@gmail.com)
+-   Blog: [https://huglemon.com](https://huglemon.com)
 
-### 赞助
+### Sponsorship
 
-如果这个项目对你有帮助，可以请我喝一罐红牛
+If this project is helpful to you, you can buy me a can of Red Bull or a cofee
 
 [![buymeacoffee](https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png "buymeacoffee")](https://buymeacoffee.com/huglemon "buymeacoffee")
 ![pay qrcode](https://mp-bca925c9-72bc-4e92-8c87-d596015241bf.cdn.bspapp.com/2024/06/29/48706370-14858221-WechatIMG135.jpg)

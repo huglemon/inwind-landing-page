@@ -59,7 +59,7 @@ export default function Hero({ locale, CTALocale }) {
 							<a
 								title='get source code'
 								className='btn btn-sm md:btn-md btn-base border-none hover:ring-1 ring-base-content text-base-100 hover:text-base-content bg-base-content hover:bg-base-100 rounded-full'
-								href='#'
+								href='https://github.com/huglemon/inwind-landing-page'
 							>
 								<SiGithub />
 								{CTALocale.btn1}
@@ -67,7 +67,7 @@ export default function Hero({ locale, CTALocale }) {
 							<a
 								title='get source code'
 								className='btn btn-sm md:btn-md btn-base rounded-full'
-								href='#'
+								href='https://huglemon.com/blog/i-open-sourced-a-saas-landing-page'
 							>
 								<IoDocumentText /> {CTALocale.btn2}
 							</a>
