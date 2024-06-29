@@ -14,6 +14,11 @@ inWind Landing Page 是基于 Next.js 给出海SaaS项目开发的Landing Page�
 2. 其次是最近也在给传统工厂提供B2B的独立站开发，但我原本的uni-app开发属于SPA项目，对SEO非常不友好，所以重新啃完了Next.js的开发，这也算是练手之作；
 3. 最后也是希望借这个项目多认识一些出海的伙伴，如果对你有帮助或者你有什么其他需要帮助的，可以联系我交流~
 
+### 性能和SEO
+
+![Performance and SEO](https://mp-bca925c9-72bc-4e92-8c87-d596015241bf.cdn.bspapp.com/2024/06/29/50354654-99418765-SafariLight.png)
+
+
 ### 用到的三方库
 
 - [DaisyUI](https://daisyui.com/)：基于此实现了多主题切换和一些基础的样式（推荐从未接触过TailwindCSS的朋友可以尝试一下，可以少记很多类名）
