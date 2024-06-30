@@ -19,7 +19,7 @@ export default function Footer() {
 			setLinkList(NavLinksList[`LINK_${langName.toUpperCase()}`]);
 		};
 		fetcLinksList();
-	}, [pathname, langName, NavLinksList]);
+	}, [pathname, langName]);
 
 	return (
 		<footer className='w-full px-5 py-10 bg-[#202020] text-[#f7f7f7] '>
