@@ -11,14 +11,15 @@ export default function Footer() {
 	const [linkList, setLinkList] = useState([]);
 
 	useEffect(() => {
-		const fetcLinksList = async () => {
-			let langName = defaultLocale;
-			if (pathname !== '/') {
+		const fetchLinksList = async () => {
+			if (pathname === '/') {
+				setLangName(defaultLocale);
+			} else {
 				setLangName(pathname.split('/')[1]);
 			}
-			setLinkList(NavLinksList[`LINK_${langName.toUpperCase()}`]);
+			setLinkList(NavLinksList[`LINK_${langName.toUpperCase()}`] || []);
 		};
-		fetcLinksList();
+		fetchLinksList();
 	}, [pathname, langName]);
 
 	return (

@@ -16,13 +16,15 @@ export default function Navbar() {
 	const [linkList, setLinkList] = useState([]);
 
 	useEffect(() => {
-		const fetcLinksList = async () => {
-			if (pathname !== '/') {
+		const fetchLinksList = async () => {
+			if (pathname === '/') {
+				setLangName(defaultLocale);
+			} else {
 				setLangName(pathname.split('/')[1]);
 			}
 			setLinkList(NavLinksList[`LINK_${langName.toUpperCase()}`] || []);
 		};
-		fetcLinksList();
+		fetchLinksList();
 	}, [pathname, langName]);
 
 	return (
