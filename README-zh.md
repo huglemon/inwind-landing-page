@@ -27,7 +27,11 @@ inWind Landing Page 是基于 Next.js 给出海SaaS项目开发的Landing Page�
 
 ### 在线预览
 
-[点我直达](https://landingpage.huglemon.com/)
+[landingpage.huglemon.com](https://landingpage.huglemon.com/)
+
+## Star 历史
+
+[![Star History Chart](https://api.star-history.com/svg?repos=huglemon/inwind-landing-page&type=Date)](https://star-history.com/#huglemon/inwind-landing-page&Date)
 
 
 ### 感谢与支持
@@ -37,6 +41,7 @@ inWind Landing Page 是基于 Next.js 给出海SaaS项目开发的Landing Page�
 ### 交个朋友
 
 -   QQ：123060128
+-   WeChat：yflowerred
 -   Twitter：[@huglemon520](x.com/huglemon520)
 -   Email：[karma.zhao@gmail.com](mailto:karma.zhao@gmail.com)
 -   博客：[https://huglemon.com](https://huglemon.com)

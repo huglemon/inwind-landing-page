@@ -27,7 +27,11 @@ inWind Landing Page is a Landing Page template developed for global SaaS project
 
 ### Online Preview
 
-[Click me to go directly](https://landingpage.huglemon.com/)
+[landingpage.huglemon.com](https://landingpage.huglemon.com/)
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=huglemon/inwind-landing-page&type=Date)](https://star-history.com/#huglemon/inwind-landing-page&Date)
 
 
 ### Thanks and Support
