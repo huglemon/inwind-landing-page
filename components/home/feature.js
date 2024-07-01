@@ -20,11 +20,11 @@ export default function Feature({ locale, langName = 'en' }) {
 				}}
 			>
 				<div className='relative z-10 flex flex-col gap-5 items-start md:items-center mb-10 mx-auto'>
-					<div className='relative inline-flex items-center justify-center gap-2 border-2 border-base-content hover:text-base-100 px-5 md:px-10 py-1 md:py-3 rounded-full text-lg md:text-2xl font-semibold overflow-hidden group'>
-						<div className='inline-flex items-center justify-center gap-2 group-hover:text-base-100 z-10 transition-all duration-300'>
+					<div className='relative inline-flex items-center justify-center gap-2 border-2 border-base-content px-5 md:px-10 py-1 md:py-3 rounded-full text-lg md:text-2xl font-semibold overflow-hidden hover:bg-base-content hover:text-base-100 transition-all'>
+						<div className='inline-flex items-center justify-center gap-2 z-10'>
 							<MdOutlineFeaturedPlayList /> <h2>{locale.h2}</h2>
 						</div>
-						<div className='group-hover:w-full absolute w-0 h-full bg-base-content z-[0] transition-all duration-300'></div>
+						<div className='absolute w-0 h-full bg-base-content z-[0]'></div>
 					</div>
 
 					<h3 className='font-bold text-3xl md:text-5xl bg-gradient-to-r from-base-content from-50% to-[#9c9c9c] md:text-center bg-clip-text text-transparent !leading-[1.25em]'>
