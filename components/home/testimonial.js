@@ -57,6 +57,7 @@ export default function Feature({ locale, langName = 'en' }) {
 							<TestimonialCard
 								key={index}
 								testimonialItem={item}
+								langName={langName}
 							/>
 						);
 					})}

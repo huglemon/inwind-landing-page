@@ -48,9 +48,9 @@ export default function Feature({ locale, langName = 'en' }) {
 								tabIndex={0}
 								className='collapse collapse-arrow bg-base-200 border-b-[1px] border-base-content rounded-none bg-transparent'
 							>
-								<div className='collapse-title text-xl font-medium'>{item.question}</div>
+								<div className={`collapse-title text-xl font-medium ${langName == 'ar' && 'text-right'}`}>{item.question}</div>
 								<div className='collapse-content'>
-									<p>{item.answer}</p>
+									<p className={langName == 'ar' && 'text-right'}>{item.answer}</p>
 								</div>
 							</div>
 						);
