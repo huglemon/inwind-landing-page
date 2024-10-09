@@ -36,5 +36,13 @@
 	"CTAButton": {
 		"btn1": "Get Source Code",
 		"btn2": "View Docs"
+	},
+	"About": {
+		"h1": "About Us",
+		"h2": "We come from the fastener capital of China, work closely with 5,000 fastener factories, have the most comprehensive fastener industry data and access to the most advanced AI Model.",
+		"why": "why",
+		"why_content": "In our nearly ten years of experience in the fastener business, we have found that many practitioners and consumers have been in situations where they have been unable to judge a product's industrial specifications from a picture. So, with the advent of AI, we decided to change that.",
+		"team": "team",
+		"team_content": "Our team is divided into two parts, one from the fastener industry production and trade, the other from the computer software, Internet technology. With the full co-operation of our team, we have completed this project."
 	}
 }

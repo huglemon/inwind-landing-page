@@ -40,7 +40,7 @@ inWind Landing Page 是基于 Next.js 给出海SaaS项目开发的Landing Page�
 
 ### 贡献者
 
-<a href="https://github.com/your-username/your-repo/graphs/contributors">
+<a href="https://github.com/huglemon/inwind-landing-page/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=huglemon/inwind-landing-page" />
 </a>
 

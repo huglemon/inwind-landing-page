@@ -40,7 +40,7 @@ inWind Landing Page is a Landing Page template developed for global SaaS project
 
 ### Contributors
 
-<a href="https://github.com/your-username/your-repo/graphs/contributors">
+<a href="https://github.com/huglemon/inwind-landing-page/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=huglemon/inwind-landing-page" />
 </a>
 
