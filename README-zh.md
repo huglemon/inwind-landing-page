@@ -38,6 +38,12 @@ inWind Landing Page 是基于 Next.js 给出海SaaS项目开发的Landing Page�
 
 -   感谢[@weijunext](https://weijunext.com/)开源的landingpage项目，参考了很多内容
 
+### 贡献者
+
+<a href="https://github.com/your-username/your-repo/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=huglemon/inwind-landing-page" />
+</a>
+
 ### 交个朋友
 
 -   QQ：123060128
