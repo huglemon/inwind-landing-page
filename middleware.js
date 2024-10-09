@@ -4,6 +4,7 @@ import { NextRequest, NextResponse } from 'next/server';
 
 const rewritePaths = [
     { pattern: /^\/$/, destination: '/en/' },
+	{ pattern: /^\/about(\/)?$/, destination: '/en/about' },
     { pattern: /^\/blog(\/)?$/, destination: '/en/blog' },
     { pattern: /^\/blog\/([^\/]+)(\/)?$/, destination: '/en/blog/$1' },
     // 可以根据需要添加更多的重写规则
