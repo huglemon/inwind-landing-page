@@ -6,23 +6,43 @@ import CustomHead from '@/components/common/head';
 import Navbar from '@/components/common/navbar';
 import Footer from '@/components/common/footer';
 import { ThemeProvider } from '@/context/ThemeContext';
+import { headers } from "next/headers"
 
-export const metadata = {
-	title: SiteConfig.name,
-	description: SiteConfig.description,
-	keywords: SiteConfig.keywords,
-	authors: SiteConfig.authors,
-	creator: SiteConfig.creator,
-	icons: SiteConfig.icons,
-	metadataBase: SiteConfig.metadataBase,
-	openGraph: SiteConfig.openGraph,
-	twitter: SiteConfig.twitter,
-};
+// export const metadata = {
+// 	title: SiteConfig.name,
+// 	description: SiteConfig.description,
+// 	keywords: SiteConfig.keywords,
+// 	authors: SiteConfig.authors,
+// 	creator: SiteConfig.creator,
+// 	icons: SiteConfig.icons,
+// 	metadataBase: SiteConfig.metadataBase,
+// 	openGraph: SiteConfig.openGraph,
+// 	twitter: SiteConfig.twitter,
+// };
 
 const jakarta = Plus_Jakarta_Sans({
 	weight: ['500', '800'],
 	subsets: ['latin'],
 });
+
+//@doc https://nextjs.org/docs/app/api-reference/functions/generate-metadata
+export async function generateMetadata({ params, searchParams }) {
+	//@see issue https://github.com/vercel/next.js/discussions/50189
+	const headersList = headers()
+	const lang = headersList.get('x-language-directory') ? headersList.get('x-language-directory') : 'en'
+
+	return {
+		title: SiteConfig[lang].name,
+		description: SiteConfig[lang].description,
+		keywords: SiteConfig[lang].keywords,
+		authors: SiteConfig[lang].authors,
+		creator: SiteConfig[lang].creator,
+		icons: SiteConfig[lang].icons,
+		metadataBase: SiteConfig[lang].metadataBase,
+		openGraph: SiteConfig[lang].openGraph,
+		twitter: SiteConfig[lang].twitter,
+	}
+}
 
 export default async function RootLayout({ children }) {
 	return (
