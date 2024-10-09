@@ -8,18 +8,6 @@ import Footer from '@/components/common/footer';
 import { ThemeProvider } from '@/context/ThemeContext';
 import { headers } from "next/headers"
 
-// export const metadata = {
-// 	title: SiteConfig.name,
-// 	description: SiteConfig.description,
-// 	keywords: SiteConfig.keywords,
-// 	authors: SiteConfig.authors,
-// 	creator: SiteConfig.creator,
-// 	icons: SiteConfig.icons,
-// 	metadataBase: SiteConfig.metadataBase,
-// 	openGraph: SiteConfig.openGraph,
-// 	twitter: SiteConfig.twitter,
-// };
-
 const jakarta = Plus_Jakarta_Sans({
 	weight: ['500', '800'],
 	subsets: ['latin'],

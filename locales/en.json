@@ -39,10 +39,17 @@
 	},
 	"About": {
 		"h1": "About Us",
-		"h2": "We come from the fastener capital of China, work closely with 5,000 fastener factories, have the most comprehensive fastener industry data and access to the most advanced AI Model.",
-		"why": "why",
-		"why_content": "In our nearly ten years of experience in the fastener business, we have found that many practitioners and consumers have been in situations where they have been unable to judge a product's industrial specifications from a picture. So, with the advent of AI, we decided to change that.",
-		"team": "team",
-		"team_content": "Our team is divided into two parts, one from the fastener industry production and trade, the other from the computer software, Internet technology. With the full co-operation of our team, we have completed this project."
+		"h2": "We are a professional team dedicated to front-end design and development, committed to providing innovative and efficient solutions for our clients.",
+		"why": "Why Choose Us",
+		"why_content": "With years of industry experience and expertise, we can deeply understand our clients' needs and provide customized solutions. We focus on innovation and user experience, ensuring that every project exceeds our clients' expectations.",
+		"team": "Team Introduction",
+		"team_content": "Our team is composed of passionate and creative designers, developers, and project managers. We believe that only through close teamwork and continuous learning can we provide the highest quality service and products for our clients."
+	},
+	"Blog": {
+		"title": "Blog",
+		"description": "This is a separate blog listing page description",
+		"side1": "Description",
+		"side2": "Popular Blogs",
+		"side3": "Recently updated"
 	}
 }

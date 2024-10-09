@@ -10,6 +10,7 @@ export default function TestimonialCard({ testimonialItem = {}, langName = 'en' 
 					alt='avatar'
 					width={200}
 					height={200}
+					className='rounded-full'
 					src={testimonialItem.avatar}
 				></Image>
 			</div>

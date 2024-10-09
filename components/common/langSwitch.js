@@ -13,15 +13,23 @@ export default function LangSwitch() {
 	const handleSwitchLanguage = (value) => {
 		return () => {
 			let newPathname;
-			if (pathname == '/') {
+			const pathParts = pathname.split('/').filter(Boolean);
+
+			if (pathParts.length === 0) {
+				// 处理根路径
 				newPathname = `/${value}`;
+			} else if (pathParts[0] === lang) {
+				// 当前路径已经包含语言代码
+				pathParts[0] = value;
+				newPathname = '/' + pathParts.join('/');
 			} else {
-				if (value === defaultLocale) {
-					newPathname = '/';
-				} else {
-					newPathname = pathname.replace(`/${langName}`, `/${value}`);
-				}
+				// 当前路径不包含语言代码
+				newPathname = `/${value}${pathname}`;
 			}
+
+			// 确保路径末尾有斜杠
+			newPathname = newPathname.endsWith('/') ? newPathname : newPathname + '/';
+
 			router.replace(newPathname);
 		};
 	};

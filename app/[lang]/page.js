@@ -11,7 +11,7 @@ export default async function Home({ params }) {
 	const dict = await getDictionary(langName); // 获取内容
 
 	return (
-		<div className='max-w-[1280px] mx-auto'>
+		<div className='container mx-auto md:px-5'>
 			<Hero
 				locale={dict.Hero}
 				CTALocale={dict.CTAButton}

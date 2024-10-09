@@ -28,7 +28,7 @@ export default function Navbar() {
 	}, [pathname, langName]);
 
 	return (
-		<header className='w-full z-50 bg-base-100 p-5 pb-0 max-w-[1280px] mx-auto md:mb-5 flex justify-between items-center'>
+		<header className='w-full relative z-50 bg-base-100 p-5 pb-0 container mx-auto md:mb-5 flex justify-between items-center'>
 			<a
 				aria-label='landing page template'
 				className='flex items-center w-1/2 md:w-1/5'

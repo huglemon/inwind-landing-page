@@ -24,7 +24,7 @@ export default function Footer() {
 
 	return (
 		<footer className='w-full px-5 py-10 bg-[#202020] text-[#f7f7f7] '>
-			<div className='max-w-[1024px] mx-auto flex flex-col md:flex-row justify-between items-center md:items-end gap-2 text-sm'>
+			<div className='container mx-auto flex flex-col md:flex-row justify-between items-center md:items-end gap-2 text-sm'>
 				<div className='flex flex-col items-center md:items-start'>
 					<a
 						aria-label='landing page template'

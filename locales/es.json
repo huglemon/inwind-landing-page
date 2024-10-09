@@ -36,5 +36,20 @@
 	"CTAButton": {
 		"btn1": "Obtener Código Fuente",
 		"btn2": "Ver Documentos"
+	},
+	"About": {
+		"h1": "Sobre Nosotros",
+		"h2": "Somos un equipo profesional dedicado al diseño y desarrollo frontend, comprometidos a proporcionar soluciones innovadoras y eficientes para nuestros clientes.",
+		"why": "Por Qué Elegirnos",
+		"why_content": "Con años de experiencia en la industria y conocimientos especializados, podemos entender profundamente las necesidades de nuestros clientes y proporcionar soluciones personalizadas. Nos enfocamos en la innovación y la experiencia del usuario, asegurando que cada proyecto supere las expectativas de nuestros clientes.",
+		"team": "Presentación del Equipo",
+		"team_content": "Nuestro equipo está compuesto por diseñadores, desarrolladores y gerentes de proyecto apasionados y creativos. Creemos que solo a través del trabajo en equipo cercano y el aprendizaje continuo podemos proporcionar el servicio y los productos de la más alta calidad para nuestros clientes."
+	},
+	"Blog": {
+		"title": "Blog",
+		"description": "Esta es una descripción de la página de lista de blogs separada",
+		"side1": "Descripción",
+		"side2": "Blogs Populares",
+		"side3": "Actualizados Recientemente"
 	}
 }
